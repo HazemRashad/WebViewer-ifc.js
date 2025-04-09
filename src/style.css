@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+place-items: center;
+min-width: 320px;
+min-height: 100vh;
+display: flex;
+height: 100vh;
+width: 100vw;
+justify-content: center;
+align-items: center;
+overflow: hidden;}
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+}
+.toolsBar {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+.bar_btn {
+  
+  position: relative;
+  padding: 5px;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  align-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin: 8px;
+  box-shadow: 0 4px 15px rgba(212, 208, 208, 0.3);
+}
+.bar_btn:hover {
+  background-color: #696969;
+}
